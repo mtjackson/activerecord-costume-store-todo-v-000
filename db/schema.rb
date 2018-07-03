@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "price"
     t.string "image_url"
     t.integer "size"
-    t.timestamp
   end
 
   create_table "haunted_houses", force: :cascade do |t|
