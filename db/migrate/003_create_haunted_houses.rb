@@ -9,6 +9,7 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.boolean :family_friendly
       t.string :opening_date
       t.string :closing_date
+      t.string :description
     end
   end
 
