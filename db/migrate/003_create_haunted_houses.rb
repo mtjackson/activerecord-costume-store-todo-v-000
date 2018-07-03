@@ -8,7 +8,7 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.integer :price
       t.boolean :family_friendly
       t.string :opening_date
-      t.string :closing_time
+      t.string :closing_date
     end
   end
 
